@@ -1,0 +1,21 @@
+{
+  "name": "git-stack",
+  "version": "1.0.0",
+  "description": "Hello world of react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel src --presets react --out-dir public -watch",
+    "start": "nodemon ./server/server.js"
+  },
+  "author": "Dhvanesh",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.1"
+  }
+}
